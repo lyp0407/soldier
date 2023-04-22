@@ -1,0 +1,6 @@
+/* pages/select/select.wxss */
+image{
+  width: 100%;
+  height: 200px;
+  border: 1px solid #cccccc;
+}

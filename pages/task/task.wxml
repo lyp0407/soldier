@@ -1,0 +1,30 @@
+<!--pages/task/task.wxml-->
+<view>
+  <view class="djs">
+    <view>倒计时</view>
+  </view>
+  <view class="zhu">
+    <text class="biao">科学会堂-主线</text>
+    <view bindtap="gotask">
+      <label class="checkbox">
+        <radio value="r2"/>任务一
+      </label>
+    </view>
+    <view>
+      <label class="radio">
+        <radio value="r2"/>任务二
+      </label>
+    </view>
+  </view>
+  <view class="zhi">
+    <text class="biao">科学会堂-支线</text>
+    <view>任务一</view>
+    <view>任务二</view>
+    <view>任务三</view>
+    <view>任务四</view>
+    <view>任务五</view>
+    <view>任务六</view>
+    <view>任务七</view>
+    <view>任务八</view>
+  </view>
+</view>

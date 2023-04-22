@@ -1,0 +1,11 @@
+<!--pages/select/select.wxml-->
+<view>
+  <image src="" alt=""/>
+  <view>
+    <text>问题</text>
+    <view>a</view>
+    <view>b</view>
+    <view>c</view>
+    <view>d</view>
+  </view>
+</view>

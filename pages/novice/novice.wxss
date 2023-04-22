@@ -1,0 +1,35 @@
+/* pages/novice/novice.wxss */
+.sp{
+  width: 100%;
+  height: 60vw;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+}
+.sp video{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.play-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.boxtet{
+  text-align: center;
+  margin: 7px 0;
+  font-size: 14px;
+}
+.next{
+  margin-top: 100px;
+  background: #2B4672;
+  color: #fff;
+  border-radius: 15px;
+}

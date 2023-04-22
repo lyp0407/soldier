@@ -1,0 +1,35 @@
+<!--pages/login/login.wxml-->
+<view>
+  <!-- 第一次 欢迎页 -->
+  <view class="container" wx:if="{{!LoginFlag}}">
+    <image src='../../img/beijing.png' class="bjt"></image>
+    <view class='box'>
+      <view>
+        <image src="../../img/hylogo.png" alt="" class="hylogo" />
+      </view>
+      <button class="hybut" bindtap="userClick">登录</button>
+    </view>
+  </view>
+
+  <!-- 登录 -->
+  <view wx:if="{{LoginFlag}}">
+    <view class="head">
+      <image src="{{ avatarUrl }}" alt="" />
+    </view>
+    <view class="main">
+      <view class="name">
+        <text>昵称：</text>
+        <input placeholder="请输入昵称" type="text" model:value="{{ userInfo }}" />
+      </view>
+      <view class="tel">
+        <text>手机号：</text>
+        <input placeholder="请输入手机号" type="text" />
+      </view>
+      <view class="Invitation">
+        <text>队伍邀请码：</text>
+        <input placeholder="请输入队伍邀请码" type="text" />
+      </view>
+      <button class="but" type="default" bindtap="doubleClick">登录</button>
+    </view>
+  </view>
+</view>

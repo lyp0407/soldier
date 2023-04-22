@@ -1,0 +1,20 @@
+{
+  "pages": [ "pages/home/home",
+    "pages/login/login",
+    "pages/novice/novice",
+   
+    "pages/rank/rank",
+    "pages/task/task",
+    "pages/gotask/gotask",
+    "pages/answer/answer",
+    "pages/select/select"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "排头兵AR定向",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

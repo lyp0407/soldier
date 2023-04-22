@@ -1,0 +1,38 @@
+<!--pages/home/home.wxml-->
+<view class="box">
+  <view class="head">
+    <view class="left">
+      <image src="../../icon/教程.png" alt="" />
+      <text>新手教程</text>
+    </view>
+    <view class="djs">
+      <view>
+        倒计时
+      </view>
+    </view>
+    <view class="right" bindtap="doubleClick">
+      <image src="../../img/排行榜.png" alt="" />
+      <text>排行榜</text>
+    </view>
+  </view>
+  <view class="main">
+    <view id="btn1" class="{{isHighlight[0] ? 'highlight' : ''}}" bindtap="onTapBtn" data-index="0">
+      <image src="../../img/任务一.png" class="img1"></image>
+      <image class="imgtop" src="../../img/初心始发.png" alt="" /><text>初心始发</text>
+    </view>
+    <view id="btn1" class="{{isHighlight[1] ? 'highlight' : ''}}" bindtap="onTapBtn" data-index="1">
+      <image src="../../img/任务二.png" class="img1"></image>
+      <image class="imgtop" src="../../img/科技创新.png" alt="" /><text>科技创新</text>
+    </view>
+    <view id="btn1" class="{{isHighlight[2] ? 'highlight' : ''}}" bindtap="onTapBtn" data-index="2">
+      <image src="../../img/任务三.png" class="img2"></image>
+      <image class="imgtop" src="../../img/人民城市.png" alt="" /><text>人民城市</text>
+    </view>
+    <view id="btn1" class="{{isHighlight[3] ? 'highlight' : ''}}" bindtap="onTapBtn" data-index="3">
+      <image src="../../img/任务四.png" class="img2"></image>
+      <image class="imgtop" src="../../img/进博先锋.png" alt="" /><text>进博先锋</text>
+    </view>
+  </view>
+  <button bindtap="countdown" class="ksbtn">开始比赛</button>
+  <view class="zhu"><text>注：任意队员点击开始比赛即视为比赛开始</text></view>
+</view>

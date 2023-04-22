@@ -1,0 +1,7 @@
+<!--pages/gotask/gotask.wxml-->
+<view>
+  <image src="" alt=""/>
+  <image src="" alt=""/>
+  <text>到达任务位置才可以答题</text>
+  <button bindtap="answer" class="btn">进入AR互动答题环节</button>
+</view>

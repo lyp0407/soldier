@@ -1,0 +1,117 @@
+/* pages/home/home.wxss */
+.head {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  width: 60px;
+  height: 50px;
+  margin: 5px;
+}
+
+.left image {
+  margin: auto;
+  display: block;
+  text-align: center;
+  width: 30px;
+  height: 25px;
+}
+
+.left text {
+  text-align: center;
+  display: block;
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.right {
+  width: 60px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+.right image {
+  margin: auto;
+  display: block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+}
+
+.right text {
+  text-align: center;
+  display: block;
+  font-size: 13px;
+}
+
+.main {
+  width: 100%;
+  height: 50vh;
+  margin: 35px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main view {
+  width: 45%;
+  height: 45%;
+  font-size: 15px;
+}
+
+.highlight {
+  background-color: #00bcd4;
+  color: #ccc;
+}
+
+
+.main .imgtop {
+  margin: 0 auto;
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.main text {
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+
+.zhu {
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: center;
+  color: red;
+}
+
+.ksbtn {
+  background: #2B4672;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.img1 {
+  position: absolute;
+  top: 101px;
+  display: block;
+  width: 45%;
+  height: 23%;
+  z-index: -999;
+}
+
+.img2 {
+  position: absolute;
+  top: 250px;
+  display: block;
+  width: 45%;
+  height: 23%;
+  z-index: -999;
+}

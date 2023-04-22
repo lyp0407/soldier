@@ -1,0 +1,18 @@
+<!--pages/rank/rank.wxml-->
+<view>
+  <view class="box">
+    <view class="left">第一名：**队</view>
+    <view class="right">
+      <view>完成主线点位：4</view>
+      <view>获得积分数：1111</view>
+    </view>
+  </view>
+  <view class="box">
+    <view class="left">第二名：**队</view>
+    <view class="right">
+      <view>完成主线点位：3</view>
+      <view>获得积分数：1111</view>
+    </view>
+  </view>
+  
+</view>

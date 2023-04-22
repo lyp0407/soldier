@@ -1,0 +1,9 @@
+<!--pages/novice/novice.wxml-->
+<view class="sp">
+  <video src="{{videoUrl}}" controls>
+  </video>
+</view>
+<view class="boxtet">
+  <text>请看新手引导视频，来学习游玩方法</text>
+</view>
+<button class="next"  bindtap="doubleClick">进入比赛</button>

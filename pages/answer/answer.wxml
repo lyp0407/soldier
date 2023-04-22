@@ -1,0 +1,5 @@
+<!--pages/answer/answer.wxml-->
+<view>
+  <image src="" alt=""/>
+  <view class="ar" bindtap="select">AR扫描</view>
+</view>

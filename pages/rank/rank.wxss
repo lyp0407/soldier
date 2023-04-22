@@ -1,0 +1,9 @@
+/* pages/rank/rank.wxss */
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 7px;
+  margin: 5px 0;
+}
